@@ -8,7 +8,7 @@ module.exports = function (env) {
     const browsers = ['ie 10'];
 
     const config = {
-        entry: "./js/index.jsx",
+        entry: ['babel-polyfill', './js/index.jsx'],
         output: {
             filename: "out.js",
             path: path.resolve(__dirname, "build")
