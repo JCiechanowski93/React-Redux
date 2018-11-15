@@ -1,9 +1,19 @@
 import React from 'react';
-import SongList from './SongList.jsx'
+import SongList from './SongList.jsx';
+import SongDetail from './SongDetail.jsx';
 
 const App = () => {
     return (
-        <SongList />
+        <div className="ui container grid">
+            <div className="ui row">
+                <div className="column eight wide">
+                    <SongList />
+                </div>
+                <div className="column eight wide">
+                    <SongDetail />
+                </div>
+            </div>
+        </div>
     );
 };
 
