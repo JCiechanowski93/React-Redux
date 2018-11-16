@@ -1,20 +1,15 @@
-import React from 'react';
-import SongList from './SongList.jsx';
-import SongDetail from './SongDetail.jsx';
+import React, { Component } from 'react';
+import SearchBar from './SearchBar.jsx';
 
-const App = () => {
+class App extends Component {
+
+  render() {
     return (
-        <div className="ui container grid">
-            <div className="ui row">
-                <div className="column eight wide">
-                    <SongList />
-                </div>
-                <div className="column eight wide">
-                    <SongDetail />
-                </div>
-            </div>
-        </div>
+      <div>
+        <SearchBar />
+      </div>
     );
-};
+  }
+}
 
 export default App;
