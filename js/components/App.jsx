@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import SearchBar from './SearchBar.jsx';
+import SearchBar from '../containers/SearchBar.jsx';
+import WeatherList from '../containers/WeatherList.jsx';
 
 class App extends Component {
 
@@ -7,6 +8,7 @@ class App extends Component {
     return (
       <div>
         <SearchBar />
+        <WeatherList />
       </div>
     );
   }
