@@ -24,7 +24,6 @@ ReactDOM.render(
         <Route exact path="/" component={App} />
         <Route path="/hello" component={Hello} />
         <Route path="/goodbye" component={Goodbye} />
-        <Route path="/goodbye2" component={Goodbye} />
       </div>
     </HashRouter>
   </Provider>
