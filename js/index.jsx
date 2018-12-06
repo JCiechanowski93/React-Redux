@@ -14,7 +14,7 @@ class Hello extends React.Component {
 }
 
 class Goodbye extends React.Component {
-  render() { return <div>Goodbye!!!</div> }
+  render() { return <div>Goodbye!!!!</div> }
 }
 
 ReactDOM.render(
